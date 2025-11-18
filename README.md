@@ -56,7 +56,7 @@
 
 ## 🖼️ Screenshots
 
-<img src="game_screenshots.png" width="300">
+![Game Screenshot](images/game_screenshots.png)
 ---
 
 ## ❤️ Credits
@@ -134,7 +134,7 @@ These can be customized in Construct 3.
 ---
 
 ## 🖼️ Screenshots
-<img src="game_screenshots.png" width="300">
+![Game Screenshot](images/game_screenshots.png)
 
 ---
 
