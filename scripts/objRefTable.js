@@ -8,7 +8,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.EightDir,
 		C3.Behaviors.Physics,
 		C3.Behaviors.solid,
-		C3.Plugins.Mouse.Cnds.OnObjectClicked,
+		C3.Plugins.Touch.Cnds.OnTapGestureObject,
 		C3.Plugins.Sprite.Acts.SetCollisions,
 		C3.Behaviors.Physics.Acts.SetEnabled,
 		C3.Plugins.Sprite.Acts.SetBoolInstanceVar,
@@ -16,7 +16,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Exps.X,
 		C3.Plugins.System.Acts.Wait,
 		C3.Plugins.Sprite.Acts.SetAnim,
-		C3.Plugins.Touch.Cnds.OnTapGestureObject,
 		C3.Behaviors.Tween.Cnds.OnTweensFinished,
 		C3.Plugins.System.Acts.CreateObject,
 		C3.Plugins.Sprite.Exps.Y,
@@ -29,10 +28,10 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.SetVisible,
 		C3.Plugins.System.Cnds.EveryTick,
 		C3.Plugins.Sprite.Acts.SetPos,
-		C3.Plugins.Mouse.Cnds.IsOverObject,
+		C3.Plugins.Touch.Cnds.IsTouchingObject,
 		C3.Behaviors.EightDir.Acts.SimulateControl,
 		C3.Plugins.System.Acts.WaitForPreviousActions,
-		C3.Plugins.Touch.Cnds.IsTouchingObject,
+		C3.Plugins.System.Cnds.LayerVisible,
 		C3.Plugins.System.Acts.RestartLayout
 	];
 };
@@ -43,6 +42,7 @@ self.C3_JsPropNameTable = [
 	{Touch: 0},
 	{Mouse: 0},
 	{CanMove: 0},
+	{MoveDir: 0},
 	{Tween: 0},
 	{"8Direction": 0},
 	{Physics: 0},
