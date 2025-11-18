@@ -32,7 +32,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Mouse.Cnds.IsOverObject,
 		C3.Behaviors.EightDir.Acts.SimulateControl,
 		C3.Plugins.System.Acts.WaitForPreviousActions,
-		C3.Plugins.Touch.Cnds.OnHoldGestureObject,
+		C3.Plugins.Touch.Cnds.IsTouchingObject,
 		C3.Plugins.System.Acts.RestartLayout
 	];
 };
