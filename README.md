@@ -1,10 +1,9 @@
 # 🎡 Claw_Machine
 
 เกมตู้คีบของรางวัลแบบ 2D พัฒนาโดยใช้ **Construct 3** แบบ **free plan** สร้างใน 24 ชม.
-// ระบบฟิสิกส์ง่าย ๆ, คีบสำเร็จทุกครั้ง และ Popup แสดงรางวัล 🎀
-// English Below
 ---
-
+// ฟิสิกส์ง่าย ๆ, คีบสำเร็จทุกครั้ง, Popup แสดงรางวัล 🎀
+// English Below
 ## 🕹️ Features
 
 - 🐾 **ควบคุมแบบทัชสกรีน** (Touch control)  
@@ -57,7 +56,7 @@
 
 ## 🖼️ Screenshots
 
-![Game Screenshot](images/game_screenshots.png)
+<img src="game_screenshots.png" width="300">
 ---
 
 ## ❤️ Credits
@@ -135,7 +134,7 @@ These can be customized in Construct 3.
 ---
 
 ## 🖼️ Screenshots
-![Game Screenshot](images/game_screenshots.png)
+<img src="game_screenshots.png" width="300">
 
 ---
 
